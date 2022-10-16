@@ -29,7 +29,7 @@ docker images
 
 Go to Docker Dashboard and open your app in your browser: 
 
-hhtp://localhost:8081/welcome
+http://localhost:8081/welcome
 
 Here we have mapped the application to 8081. You can map to same port like 8080 too.
 
