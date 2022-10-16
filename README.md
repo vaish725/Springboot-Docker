@@ -13,8 +13,10 @@ Docker simplifies and accelerates your workflows by letting you freely innovate 
 Now we can run the application without the Docker container (that is, in the host OS): we can now access your “Hello World” page through our web browser at http://localhost:8080/welcome
 
 2. In the command prompt in root directory type: 
-'''
+
+```
 docker run -p 8081:8080 springboot-docker-demo .
-'''
+```
+
 Go to Docker Dashboard and open your app in your browser: hhtp://localhost:8081/welcome
 Here we have mapped the application to 8081. You can map to same port like 8080 too.
