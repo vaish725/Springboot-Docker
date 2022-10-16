@@ -18,5 +18,20 @@ Now we can run the application without the Docker container (that is, in the hos
 docker run -p 8081:8080 springboot-docker-demo .
 ```
 
-Go to Docker Dashboard and open your app in your browser: hhtp://localhost:8081/welcome
+Note that there is a dot (.) at the end, denoting the current directory.
+
+3. You can see it pulls the image openjdk:11 from registry-1.docker.io, copies the WAR file and creates the image. To verify, type:
+
+```
+docker images
+```
+
+
+Go to Docker Dashboard and open your app in your browser: 
+
+hhtp://localhost:8081/welcome
+
 Here we have mapped the application to 8081. You can map to same port like 8080 too.
+
+
+We’ve demonstrated how to containerize our Spring Boot application, and why that’s so conducive to smoother deployment. We’ve also harnessed Docker Compose to construct a simple, two-layered web application. This process is quick and lets you devote precious time to other development tasks — especially while using Docker Desktop. No advanced knowledge of containers or even Docker is needed to succeed.
