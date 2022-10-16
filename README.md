@@ -35,3 +35,5 @@ Here we have mapped the application to 8081. You can map to same port like 8080 
 
 
 We’ve demonstrated how to containerize our Spring Boot application, and why that’s so conducive to smoother deployment. We’ve also harnessed Docker Compose to construct a simple, two-layered web application. This process is quick and lets you devote precious time to other development tasks — especially while using Docker Desktop. No advanced knowledge of containers or even Docker is needed to succeed.
+
+You can view the whole execution here: https://drive.google.com/file/d/1J8HzPgapuIH409KlwoGLs1ifhscD-zJF/view?usp=sharing
