@@ -9,6 +9,6 @@ Docker uses a Dockerfile to specify each image’s “layers.” Each layer stor
 Docker simplifies and accelerates your workflows by letting you freely innovate with your choice of tools, application stacks, and deployment environments for each project. You can run your Spring Boot artifact directly within Docker containers. This is useful when you need to quickly create microservices.
 
 
-Starting with Spring Initializr
+**Starting with Spring Initializr**: 
 We used this pre-initialized project and clicked Generate to download a ZIP file. To manually initialize the project:
 
